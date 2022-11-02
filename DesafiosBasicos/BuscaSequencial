@@ -1,0 +1,3 @@
+let elementos = [64, 137, -16, 43, 67, 81, -90, 212, 10, 75]; 
+let valor = parseInt(gets());
+console.log((foundELement = elementos.indexOf(valor)) != -1 ? `Achei ${valor} na posicao ${foundELement}` :`Numero ${valor} nao encontrado!`)
